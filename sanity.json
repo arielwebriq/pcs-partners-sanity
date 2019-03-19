@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "project": {
+    "name": "brianboals"
+  },
+  "api": {
+    "projectId": "vlch1eal",
+    "dataset": "brianboals"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "markdown"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
