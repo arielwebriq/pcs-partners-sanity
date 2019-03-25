@@ -25,6 +25,16 @@ export default {
       type: "string"
     },
     {
+      name: "Taxes",
+      title: "Taxes",
+      type: "number"
+    },
+    {
+      name: "TaxYear",
+      title: "Yearly Tax",
+      type: "string"
+    },
+    {
       name: "PostalCode",
       title: "Zip or Postal code",
       type: "string"
@@ -37,6 +47,21 @@ export default {
     {
       name: "BathroomsTotalInteger",
       title: "Total Bathrooms",
+      type: "number"
+    },
+    {
+      name: "BathroomsFull",
+      title: "Number of Full Bathrooms",
+      type: "number"
+    },
+    {
+      name: "BathroomsOneQuarter",
+      title: "Half Bath",
+      type: "number"
+    },
+    {
+      name: "BathroomsThreeQuarter",
+      title: "Three-Quarter Bath",
       type: "number"
     },
     {
@@ -71,8 +96,13 @@ export default {
       type: "text"
     },
     {
+      name: "Agent",
+      title: "Courtesy Agent",
+      type: "string"
+    },
+    {
       name: "ListAgentMlsId",
-      title: "List Agent MlS ID",
+      title: "List Agent MLS ID",
       type: "number"
     },
     {
@@ -80,11 +110,7 @@ export default {
       title: "Listing Price",
       type: "number"
     },
-    {
-      name: "BathroomsFull",
-      title: "Number of Full Bathrooms",
-      type: "number"
-    },
+
     {
       name: "YearBuilt",
       title: "Years Built",
@@ -161,13 +187,18 @@ export default {
       type: "string"
     },
     {
-      name: "ElementarySchoolDistrict",
-      title: "Elementary School District",
+      name: "SchoolDistrictFirst",
+      title: "School District 1",
       type: "string"
     },
     {
-      name: "HighSchoolDistrict",
-      title: "High School District",
+      name: "SchoolDistrictSecond",
+      title: "School District 2",
+      type: "string"
+    },
+    {
+      name: "SchoolDistrictThird",
+      title: "School District 3",
       type: "string"
     },
     {
@@ -193,6 +224,111 @@ export default {
     {
       name: "LivingAreaUnits",
       title: "Living Area Units",
+      type: "string"
+    },
+    {
+      name: "Cooling",
+      title: "Cooling",
+      type: "string"
+    },
+    {
+      name: "ArchitecturalStyle",
+      title: "Style",
+      type: "string"
+    },
+    {
+      name: "WaterSource",
+      title: "Water Source",
+      type: "string"
+    },
+    {
+      name: "ExteriorFeatures",
+      title: "Exterior Features",
+      type: "string"
+    },
+    {
+      name: "Parking",
+      title: "Parking",
+      type: "string"
+    },
+    {
+      name: "FeeIncludes",
+      title: "Fee Includes",
+      type: "string"
+    },
+    {
+      name: "GasType",
+      title: "Gas Type",
+      type: "string"
+    },
+    {
+      name: "HVAC",
+      title: "HVAC",
+      type: "string"
+    },
+    {
+      name: "Laundry",
+      title: "LaundryFeatures",
+      type: "string"
+    },
+    {
+      name: "FireplaceConstruction",
+      title: "Fireplace Construction",
+      type: "string"
+    },
+    {
+      name: "View",
+      title: "View",
+      type: "string"
+    },
+    {
+      name: "Basement",
+      title: "Basement",
+      type: "string"
+    },
+    {
+      name: "Topography",
+      title: "Topography",
+      type: "string"
+    },
+    {
+      name: "ParkingSpaces",
+      title: "Open Parking Spaces",
+      type: "number"
+    },
+    {
+      name: "Fuel",
+      title: "Fuel",
+      type: "string"
+    },
+    {
+      name: "Sewer",
+      title: "Sewer",
+      type: "string"
+    },
+    {
+      name: "SiteFeatures",
+      title: "Site Features",
+      type: "string"
+    },
+    {
+      name: "SaleRent",
+      title: "Sale Rent",
+      type: "string"
+    },
+    {
+      name: "DuesFrequency",
+      title: "Dues Frequency",
+      type: "string"
+    },
+    {
+      name: "PartialOwnership",
+      title: "Partial Ownership",
+      type: "string"
+    },
+    {
+      name: "UnderContractDate",
+      title: "Purchase Contract Date",
       type: "string"
     }
   ]
