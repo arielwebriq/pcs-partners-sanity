@@ -20,7 +20,7 @@ export default {
     },
     {
       name: "rating",
-      title: "Rating",
+      title: "Rating (1-5)",
       type: "number"
     },
     {
