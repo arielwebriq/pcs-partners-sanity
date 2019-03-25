@@ -50,6 +50,11 @@ export default {
       type: "number"
     },
     {
+      name: "Floor",
+      title: "Floor",
+      type: "number"
+    },
+    {
       name: "BathroomsFull",
       title: "Number of Full Bathrooms",
       type: "number"
@@ -329,6 +334,21 @@ export default {
     {
       name: "UnderContractDate",
       title: "Purchase Contract Date",
+      type: "string"
+    },
+    {
+      name: "AverageTravelTimetoWork",
+      title: "Average Travel Time to Work",
+      type: "string"
+    },
+    {
+      name: "MedianIncome",
+      title: "Median Income",
+      type: "string"
+    },
+    {
+      name: "AverageSATScore",
+      title: "Average SAT Score",
       type: "string"
     }
   ]
