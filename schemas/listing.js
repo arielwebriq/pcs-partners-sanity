@@ -15,6 +15,11 @@ export default {
       type: "string"
     },
     {
+      name: "VirtualTour",
+      title: "VirtualTour",
+      type: "string"
+    },
+    {
       name: "StateOrProvince",
       title: "State or Province",
       type: "string"
