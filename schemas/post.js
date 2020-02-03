@@ -18,7 +18,7 @@ export default {
       }
     },
     {
-      name: "author",
+      name: "postauthor",
       title: "Author",
       type: "reference",
       to: { type: "author" }
@@ -43,8 +43,8 @@ export default {
       type: "datetime"
     },
     {
-      name: "shortdesc",
-      title: "Short Description",
+      name: "excerpt",
+      title: "Excerpt",
       type: "string"
     },
     {

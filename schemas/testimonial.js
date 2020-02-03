@@ -14,6 +14,14 @@ export default {
       type: "string"
     },
     {
+      name: "testimonialimage",
+      title: "Main Image",
+      type: "image",
+      options: {
+        hotspot: true
+      }
+    },
+    {
       name: "description",
       title: "Description",
       type: "text"
@@ -25,7 +33,7 @@ export default {
     },
     {
       name: "publishedAt",
-      title: "Published at",
+      title: "Published At",
       type: "datetime"
     }
   ]

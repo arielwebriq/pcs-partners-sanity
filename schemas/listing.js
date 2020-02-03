@@ -197,12 +197,12 @@ export default {
       type: "string"
     },
     {
-      name: "SchoolDistrictFirst",
+      name: "ElementarySchoolDistrict",
       title: "School District 1",
       type: "string"
     },
     {
-      name: "SchoolDistrictSecond",
+      name: "HighSchoolDistrict",
       title: "School District 2",
       type: "string"
     },
