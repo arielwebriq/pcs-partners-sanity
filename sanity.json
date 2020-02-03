@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "brianboals"
+    "name": "pcspartners"
   },
   "api": {
-    "projectId": "vlch1eal",
-    "dataset": "brianboals"
+    "projectId": "bj51mthn",
+    "dataset": "pcspartners"
   },
   "plugins": [
     "@sanity/base",

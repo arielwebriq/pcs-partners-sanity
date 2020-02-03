@@ -1,0 +1,7 @@
+# Dependency directory
+node_modules
+node_modules/
+
+# Dist Static Folder
+dist
+dist/
